@@ -1,0 +1,204 @@
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<!-- <meta http-equiv="X-UA-Compatible" content="IE=10"> -->
+		<link rel="icon" href="ico/favicon.ico">
+		<title>..:: HOW COMPANY ::..</title>
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+		<link rel="stylesheet" href="css/font.css">
+		<link href="css/bootstrap.css" rel="stylesheet">
+		<link href="css/howCompany.css" rel="stylesheet"> 
+		<script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.js"></script>
+	    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+	    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+	    <script src="js/ie-emulation-modes-warning.js"></script>
+	</head>
+	<body>
+		<header>
+		    <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+		      <div class="container">
+			      <div class="head-left col-md-10 col-sm-10 col-xs-10">
+			        <div class="navbar-header">
+			          <button class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
+			            <span class="sr-only">Toggle navigation</span>
+			            <span class="icon-bar"></span>
+			            <span class="icon-bar"></span>
+			            <span class="icon-bar"></span>
+			          </button>
+			          <div class="navbar-brand col-xs-2">
+			          <a class="navbar-brand" href="#"><img src="img/logo.png" alt="HOW COMPANY"></a>
+			          </div>
+			        </div>
+				    <div class="collapse navbar-collapse">
+				      <ul class="nav navbar-nav">
+				        <li><a href="#">HOME</a></li>
+				        <li><a href="#OverONS">OVER ONS</a></li>
+				        <li><a href="#Programmas">PROGRAMA’S </a></li>
+				        <li><a id="current" href="#">CONTACT</a></li>
+				      </ul>
+				    </div>
+			      </div>
+			      <div class="head right col-md-2 col-sm-2 col-xs-2 ">
+					<div class="lang">
+						<span ><a class="activ" href="#">NL</a></span><span class="hiddens"> / </span><span><a href="#">EN</a></span>
+					</div>
+					<div class="login">
+						<div class="btn-group">
+		 				 <button type="button" class="btn btn-default">Inloggen</button>
+						</div>
+					</div>
+			  	  </div>
+			 </div>
+			</div>
+		</header>
+		<section>
+		    <div class="container">
+			  <div class="info col-md-4 col-sm-12 col-xs-12">
+			    <h3>BEZOEKADRES</h3>
+			        <div class="maps">
+			        	<div class="google">
+							<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2434.4485715191536!2d4.8519633!3d52.398546!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c5e28db789ff89%3A0x7353ee90ece68e86!2zQ29udGFjdHdlZyAxNjEsIDEwMTQgQkogQW1zdGVyZGFtLCDQndC40LTQtdGA0LvQsNC90LTQuNGP!5e0!3m2!1sbg!2sbg!4v1410266332928"></iframe>
+						</div>
+			        	<p>Contactweg 161</p>
+						<p>1014 BJ Amsterdam</p>
+						<hr>
+					
+						<div><p>Reist u met een <span>navigatiesysteem?</span> </p>
+						<p> Gebruik dan het volgende adres:<p></div>
+						<div><p>Contactweg 161</p>
+						<p>1014 BJ Amsterdam</p></div>
+
+						<button type="button" class="btn btn-lg btn-block">Of download de routebeschrijving</button>
+						<hr>
+						<ul>
+							<li class="phone">+ 31 (0)20 506 20 90</li>
+							<li class="fax">+ 31 (0)20 506 20 99</li>
+
+							<li class="email"><a href="mailto:bg_abv@abv.bg?Subject=time%20to%20work" target="_top">cathelijne@howcompany.nl</a></li>
+						</ul>
+						<br>
+			        </div>
+			  </div>
+			  <div class="contact-info col-md-8 col-sm-12 col-xs-12">
+			   <h3>CONTACTFORMULIER</h3>
+			   <div class="border">
+			      <div class="contact-form col-md-12 col-sm-12 col-xs-12">
+			        <form method="get" action="how.php" class="form-horizontal" role="form">
+						<div class="form-group form-group-lg">
+						    <label class="col-sm-3 control-label"><span>Naam</span></label>
+						    <div class="col-sm-9">
+						      <input class="form-control" type="text" name="Naam">
+						    </div>
+								<br><br>
+						    <label class="col-sm-3 control-label" >Functie</label>
+						    <div class="col-sm-9">
+						      <input class="form-control" type="text" name="Functie">
+						    </div>
+								<br><br>
+						    <label class="col-sm-3 control-label" >Bedrijfsnaam</label>
+						    <div class="col-sm-9">
+						      <input class="form-control" type="text" name="Bedrijfsnaam">
+						    </div>
+								<br><br>
+						    <label class="col-sm-3 control-label" >Telefoon</label>
+						    <div class="col-sm-9">
+						      <input class="form-control inputPhone" type="text" id="inputPhone" name="Telefoon">
+						    </div>
+						    	<br><br>
+						    	<label class="col-sm-3 control-label " ><span>E-mailadres</span></label>
+						    <div class="col-sm-9">
+						      <input class="form-control" type="text" name="Emailadres">
+						    </div>
+						    	<br><br>
+						    <label class="col-sm-3 control-label" >Hoe bent u bij ons
+							        	terecht gekomen?</label>
+						    <div class="col-sm-9">
+						 
+								<select name="timepass" class="select-wrapper custom-select">
+						          
+						            <option>Van de vriend :-)</option>
+						            <option>Van de Internet :-)</option>
+						            <option>Van andere :-)</option>               
+						        </select>
+						    </div>
+							<br><br>
+					 	</div>
+						<div>
+							<label class="col-sm-3 control-label emails"><span>Bericht</span></label>
+						    <div class="col-sm-9">
+								<textarea class="form-control" rows="7" name="text"></textarea>
+						  	</div>
+					  	</div>
+					    <div class="input">
+							 <button type="submit" class="btn btn-default submit">Verstuur</button>
+						</div>
+				    </form>
+				  </div>  
+			    </div>
+			  </div>
+		    </div>
+		</section>
+		<footer>
+			<div class="footer">
+			    <div class="container">
+			    	<div class="footer-news col-md-4 col-sm-12 col-xs-12">
+			    		<h4>Nieuws</h4>
+			    		<ul class="news">
+			    			<li><a href="http://www.webfactory.bg/en">De succesvolle resultaten bij onze partner ONVZ Zorgverzekeraar</a> <span class="glyphicon glyphicon-play"></span></li>
+			    			<li><a href="http://www.webfactory.bg/en">Nieuwe data voor Personal Excellence in HR 2014 bekend </a><span class="glyphicon glyphicon-play"></span></li>
+			    			<li><a href="http://www.webfactory.bg/en">Naast mentale nu ook fysieke ontwikkeling! </a><span class="glyphicon glyphicon-play"></span></li>
+			    			<li><a href="http://www.webfactory.bg/en">Persoonlijk Leiderschap voor Schoolleiders    30 sept, opbrengst naar goed doel </a><span class="glyphicon glyphicon-play"></span></li>
+			    			<li><a href="http://www.webfactory.bg/en">De succesvolle resultaten bij onze partner ONVZ Zorgverzekeraar </a><span class="glyphicon glyphicon-play"></span></li>
+			    			<li><a class="active" href="#">Bekijk meer nieuws</a> <span class="glyphicon glyphicon-play"></span></li>
+			    		</ul>
+			    	</div>
+			    	<div class="footer-programs col-md-4 col-sm-12 col-xs-12">
+			    		<h4>PROGRAMS</h4>
+			    		<ul>
+			    			<li><a href="http://www.webfactory.bg/en">Communication for Excellence </a><span class="glyphicon glyphicon-play"></span></li>
+			    			<li><a href="http://www.webfactory.bg/en">Leadership for Excellence </a><span class="glyphicon glyphicon-play"></span></li>
+			    			<li><a href="http://www.webfactory.bg/en">Praktische Communicatie Vaardigheden </a><span class="glyphicon glyphicon-play"></span></li>
+			    			<li><a href="http://www.webfactory.bg/en">In Company trainingen</a><span class="glyphicon glyphicon-play"></span></li>
+			    			<li><a href="http://www.webfactory.bg/en">Coaching </a><span class="glyphicon glyphicon-play"></span></li>
+			    			<li><a href="http://www.webfactory.bg/en">Opleiding tot coach / trainer</a> <span class="glyphicon glyphicon-play"></span></li>
+			    			<li><a class="active" href="http://www.webfactory.bg/en">Lees meer over alle trainingen </a><span class="glyphicon glyphicon-play"></span></li>
+			    		</ul>
+			    	</div>
+			    	<div class="footer-company col-md-4 col-sm-12 col-xs-12">
+			    		<h4>COMPANY</h4>
+			    		<div class="company">
+			    		<div class="bubble">
+			    			<p><span>KarenMolin-vOverbeek:</span> Ik zoek een training Persoonlijke Effectiviteit, en het liefst in relatie tot marketing en communicatie.Tips?<span> #dtv</span> </p>
+
+			    		</div>
+				    		<div class="follow"><p><a href="https://twitter.com/webfactorytwit"><img src="img/follow.png" alt="twitter"></a><span>@HowCompany</span></p></div>
+			    		</div>
+			 
+			    		<div class="buttons">
+			    		<a href="https://www.linkedin.com/"><img src="img/li.png" alt="linkedin"></a>
+			    		<a href="http://www.trecens.nl/p35-cedeo-erkenning.aspx"><img src="img/credo1.png" alt="Credo"></a>
+			    		<a href="http://www.trecens.nl/p35-cedeo-erkenning.aspx"><img src="img/credo2.png" alt="Credo"></a>	
+			    		</div>
+			    	</div>
+				</div>
+		    </div>
+		</footer>
+	  <script src="js/bootstrap.min.js"></script>
+	  <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+	  <script src="js/ie10-viewport-bug-workaround.js"></script>
+	  <script type="text/javascript">
+			    $(document).ready(function(){
+			        $(".custom-select").each(function(){
+			            $(this).wrap("<span class='select-wrapper'></span>");
+			            $(this).after("<span class='holder'></span>");
+			        });
+			        $(".custom-select").change(function(){
+			            var selectedOption = $(this).find(":selected").text();
+			            $(this).next(".holder").text(selectedOption);
+			        }).trigger('change');
+			    })
+	  </script>
+	</body>
+</html>
