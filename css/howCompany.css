@@ -60,12 +60,12 @@ iframe{
 	margin-bottom: 15px;
 }
 .phone {
-	background: url('../img/spr.png');
+    	background: url('../img/spr.png');
 	background-position: 0 1px;
-    background-repeat: no-repeat;
-    padding-left: 25px;
-    margin-top: 15px;
-    margin-left: -20px;
+    	background-repeat: no-repeat;
+    	padding-left: 25px;
+    	margin-top: 15px;
+    	margin-left: -20px;
 }
 .form-horizontal .control-label{
 	text-align: left;
@@ -89,10 +89,10 @@ iframe{
 .fax {
 	background: url('../img/spr.png') ;
 	background-position: 0 -20px;
-    background-repeat: no-repeat;
-    padding-left: 25px;
-    margin-top: 15px;
-    margin-left: -20px;
+    	background-repeat: no-repeat;
+    	padding-left: 25px;
+    	margin-top: 15px;
+	 margin-left: -20px;
 }
 .email {
 	background: url('../img/spr.png') ;
@@ -138,10 +138,10 @@ iframe{
 	opacity: 0;
 }
 form{
-    margin: 20px;
+    	margin: 20px;
 }
 select::-ms-expand {
-    display: none;
+    	display: none;
 }
 .footer ul li {
 	list-style-type: none;
@@ -152,8 +152,8 @@ select::-ms-expand {
 }
 
 .footer ul li:last-child {
-    color: #DC0714;
-    margin-bottom: 25px;
+    	color: #DC0714;
+    	margin-bottom: 25px;
 }
 .news a{
 	text-decoration: underline;
@@ -181,38 +181,38 @@ select::-ms-expand {
 }
 .bubble {
   	margin-top: -3px;
-    position: relative;
-    height: 88px;
-    padding: 0px;
-    background: #ffffff;
-    border: #e4ddd3 solid 1px;
-    border-radius: 5px;
-    border-radius: 5px;
+    	position: relative;
+    	height: 88px;
+    	padding: 0px;
+    	background: #ffffff;
+    	border: #e4ddd3 solid 1px;
+    	border-radius: 5px;
+    	border-radius: 5px;
 }
 
 .bubble:after {
-    content: "";
-    position: absolute;
-    bottom: -20px;
-    left: 181px;
-    border-style: solid;
-    border-width: 20px 20px 0px 1px;
-    border-color: #ffffff transparent;
-    display: block;
-    width: 0;
-    z-index: 1;
+    	content: "";
+    	position: absolute;
+    	bottom: -20px;
+    	left: 181px;
+    	border-style: solid;
+    	border-width: 20px 20px 0px 1px;
+    	border-color: #ffffff transparent;
+    	display: block;
+    	width: 0;
+	z-index: 1;
 }
 .bubble:before {
-    content: "";
-    position: absolute;
-    top: 87px;
-    left: 180px;
-    border-style: solid;
-    border-width: 22px 22px 0 1px;
-    border-color: #e4ddd3 transparent;
-    display: block;
-    width: 0;
-    z-index: 0;
+	content: "";
+	position: absolute;
+	top: 87px;
+    	left: 180px;
+    	border-style: solid;
+    	border-width: 22px 22px 0 1px;
+    	border-color: #e4ddd3 transparent;
+    	display: block;
+    	width: 0;
+    	z-index: 0;
 }
 .bubble p{
 	font-size: 0.8em;
@@ -293,7 +293,7 @@ select::-ms-expand {
 @media (min-width: 768px) {
 	
 	.container {
-	    width: 750px;
+	    	width: 750px;
 	  }
 	.navbar-brand img{
 		width: 110px;
@@ -448,9 +448,9 @@ select::-ms-expand {
 }
 @media (min-width: 992px) {
 	.container {
-	    width: 1008px;
-	    padding-left: 0px;
-	    padding-right: 0px;
+	    	width: 1008px;
+	    	padding-left: 0px;
+	    	padding-right: 0px;
 	 }
 	.navbar-brand  img{
 		margin-top: -15px;
